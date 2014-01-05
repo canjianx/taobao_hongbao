@@ -1,9 +1,9 @@
 {
     "manifest_version" : 2,
 
-    "name": "My chrome extension Hello",
+    "name": "抢红包",
     "description": "This is my demostrates a brower action with kittens.",
-    "version": "1.0",
+    "version": "1.0.1",
 
     "permissions": [
         "http://www.kuaipan.cn/home/*",
@@ -11,7 +11,7 @@
     ],
 
     "browser_action": {
-        "default_icon" : "icon.png",
+        "default_icon" : "11.png",
         "default_title" : "Make this page red"
     },
 
