@@ -2,8 +2,8 @@
     "manifest_version" : 2,
 
     "name": "抢红包",
-    "description": "This is my demostrates a brower action with kittens.",
-    "version": "1.0.1",
+    "description": "淘宝网帮助点红包的小工具。能不能中奖要看自己的运气了。",
+    "version": "1.0.2",
 
     "permissions": [
         "http://www.kuaipan.cn/home/*",
@@ -12,7 +12,7 @@
 
     "browser_action": {
         "default_icon" : "11.png",
-        "default_title" : "Make this page red"
+        "default_title" : "抢红包"
     },
 
     "background":{
@@ -23,10 +23,6 @@
     "web_accessible_resources": ["jquery-2.0.3.min.map"],
     "content_scripts":[
         {
-            "matches":["http://www.kuaipan.cn/home/*"],
-            "js":["jquery-2.0.3.min.js", "jquery-simulate.js", "signin.js"],
-            "run_at": "document_end"
-        }, {
             "matches":["http://nianhuo.tmall.com/*"],
             "js":["jquery-2.0.3.min.js", "jquery-simulate.js", "qiang.js"],
             "run_at": "document_end"
