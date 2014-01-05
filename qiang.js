@@ -10,6 +10,7 @@ var qiang = function () {
         $("#quarkasMonster").simulate("mousedown", {"clientX": 692, "clientY": 270});
         $("#quarkasMonster").simulate("mousedown", {"clientX": 792, "clientY": 270});
         $("#quarkasMonster").simulate("mousedown", {"clientX": 892, "clientY": 270});
+        $("#J_GameLotterySureBtn:visible").simulate("click");
     }, 300);
 };
 
